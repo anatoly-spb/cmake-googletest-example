@@ -12,6 +12,3 @@ class FixtureTest : public ::testing::Test {
 TEST_F(FixtureTest, ZeroEqual) {
 	ASSERT_EQ(0, 0);
 }
-TEST_F(FixtureTest, Failure) {
-  FAIL();
-}

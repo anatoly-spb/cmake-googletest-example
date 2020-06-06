@@ -5,5 +5,5 @@ Build and run test
 	cd build
 	cmake -Dgtest_force_shared_crt=ON ..      
 	cmake --build .
-	ctest -C Debug
+	ctest -C Debug -V
                 

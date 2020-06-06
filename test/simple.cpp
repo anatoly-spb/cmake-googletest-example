@@ -1,12 +1,10 @@
 #include "gtest/gtest.h"
 
-TEST(SimpleTest, FatalFailure) {
+TEST(SimpleTest, FatalFailureMacros) {
   ASSERT_TRUE(true);
-  ASSERT_TRUE(false);
 }
 
-TEST(SimpleTest, NonFatalFailure) {
-  EXPECT_TRUE(false);
+TEST(SimpleTest, NonFatalFailureMacros) {
   EXPECT_TRUE(true);
 }
 
